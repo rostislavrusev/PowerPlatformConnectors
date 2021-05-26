@@ -26,16 +26,16 @@ You will need an Alemba Service Manager instance and an analyst account to be ab
 
 ## Sample Usage
 
-The Alemba ITSM connector is used in the same way for Logic Apps and Power Apps and allows you to choose the supported action or trigger:
+The Alemba ITSM connector is used in the same way for Logic Apps and Power Apps and allows you to choose the supported action or trigger: <br>
 <img width="600px" src="images/1.png"> <br>
-Make sure you create a connection to your ASM instance and specify the analyst credentials to connect with:
+Make sure you create a connection to your ASM instance and specify the analyst credentials to connect with: <br>
 <img width="600px" src="images/2.png"> <br>
-You then select the Category e.g. Call:
+You then select the Category e.g. Call: <br>
 <img width="600px" src="images/3.png"> <br>
-And then the Entity e.g. Incident:
+And then the Entity e.g. Incident: <br>
 <img width="600px" src="images/4.png"> <br>
-If Partitioning is used then you are able to define the partition value and then select which parameters (ASM Fields) you wish to populate:
+If Partitioning is used then you are able to define the partition value and then select which parameters (ASM Fields) you wish to populate: <br>
 <img width="600px" src="images/5.png"> <br>
-If you have chosen an Interaction then you can choose which ASM action you want to perform: 
+If you have chosen an Interaction then you can choose which ASM action you want to perform: <br>
 <img width="600px" src="images/6.png"> <br>
 When performing an Interaction you must add an additional step to Submit the action in order for it to be processed by the Alemba API.
